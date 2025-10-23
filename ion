@@ -1,0 +1,15 @@
+[0;1;31m●[0m jenkins.service - Jenkins Continuous Integration Server
+   Loaded: loaded (/usr/lib/systemd/system/jenkins.service; enabled; vendor preset: disabled)
+   Active: [0;1;31mfailed[0m (Result: exit-code) since Thu 2025-10-23 12:27:10 KST; 26s ago
+  Process: 5262 ExecStart=/usr/bin/jenkins [0;1;31m(code=exited, status=1/FAILURE)[0m
+ Main PID: 5262 (code=exited, status=1/FAILURE)
+
+10월 23 12:27:10 localhost.localdomain systemd[1]: jenkins.service: Service RestartSec=100ms expired, scheduling restart.
+10월 23 12:27:10 localhost.localdomain systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 5.
+10월 23 12:27:10 localhost.localdomain systemd[1]: Stopped Jenkins Continuous Integration Server.
+10월 23 12:27:10 localhost.localdomain systemd[1]: [0;1;39m[0;1;31m[0;1;39mjenkins.service: Start request repeated too quickly.[0m
+10월 23 12:27:10 localhost.localdomain systemd[1]: [0;1;39m[0;1;31m[0;1;39mjenkins.service: Failed with result 'exit-code'.[0m
+10월 23 12:27:10 localhost.localdomain systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+10월 23 12:27:24 localhost.localdomain systemd[1]: [0;1;39m[0;1;31m[0;1;39mjenkins.service: Start request repeated too quickly.[0m
+10월 23 12:27:24 localhost.localdomain systemd[1]: [0;1;39m[0;1;31m[0;1;39mjenkins.service: Failed with result 'exit-code'.[0m
+10월 23 12:27:24 localhost.localdomain systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
